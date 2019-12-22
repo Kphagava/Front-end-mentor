@@ -14,7 +14,6 @@ h3{
 }
 img{
     position:absolute;
-    right: 0;
     bottom: 25px;
     right: 25px;
     width: 55px;
@@ -34,7 +33,7 @@ h1{
     margin-bottom: 10px;
 }
 .container{
-    width: 80%;
+    width: 95%;
     max-width: 1440px;
     height: 600px;
     text-align: center;
@@ -47,7 +46,6 @@ h2{
     color: hsl(229, 6%, 66%);
 }
 .boxes{
-   
     display: flex;
     justify-content: center;
     margin: 40px;
@@ -57,6 +55,7 @@ h2{
 .supervisor{
     width: 320px;
     height: 200px;
+    min-width: 320px;
     background-color: white;
     border-radius: 6px;
     box-shadow: 5px 5px 10px 0px  hsla(212, 55%, 45%, 0.2);
@@ -71,7 +70,7 @@ h2{
 .middle-boxes{
     margin-right: 25px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
 }
 .team-builder{
     width: 320px;
@@ -99,6 +98,7 @@ h2{
 
 .calculator{
     width: 320px;
+    min-width: 320px;
     height: 200px;
     background-color:  white;
     border-radius: 6px;
@@ -108,5 +108,39 @@ h2{
     padding-top: 25px;
     border-top: 3px solid hsl(212, 86%, 64%);
     position: relative;
+}
 
+@media (max-width: 1050px){
+    .supervisor, .karma, .calculator, .team-builder {
+        width: 240px;
+        height: 150px;
+        min-width: 240px;
+        padding-top: 15px;
+        padding-left: 15px;
+
+    }
+    img{
+        width: 30px;
+        height: 30px;
+        bottom: 15px;
+        right: 15px;
+    }
+}
+@media (max-width: 768px){
+    .boxes{
+        flex-direction: column;
+        align-items: center;
+    }
+    .middle-boxes{
+        margin-right: 0;
+    }
+    .supervisor{
+        margin-right: 0;
+    }
+    .team-builder{
+        margin-top: 25px;
+    }
+    .calculator{
+        margin-top: 25px;
+    }
 }
