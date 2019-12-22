@@ -1,1 +1,1 @@
-# Frond-end-mentor
+# Front-end-mentor
