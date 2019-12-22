@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'Poppins', sans-serif;
+}
+h3{
+    font-weight: 600;
+    font-size: 17px;
+    color:hsl(234, 12%, 34%);
+}
+img{
+    float: right;
+    margin-right: 25px;
+    width: 55px;
+}
+.boxes p {
+    margin-top: 10px;
+}
+p{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(179, 179, 179)
+}
+h1{
+    color:hsl(234, 12%, 34%);
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.container{
+    width: 1400px;
+    height: 600px;
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+}
+h2{
+    font-weight: 200;
+    font-size: 30px;
+    color: hsl(229, 6%, 66%);
+}
+.boxes{
+   
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    text-align: left;
+}
+
+.supervisor{
+    width: 320px;
+    height: 200px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px 0px  hsla(212, 55%, 45%, 0.2);
+    margin-right: 25px;
+    align-self: center;
+    padding-left: 25px;
+    padding-top: 25px;
+    border-top: 3px solid hsl(180, 62%, 55%);
+    position: relative;
+ }
+
+.middle-boxes{
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.team-builder{
+    width: 320px;
+    height: 200px;
+    background-color:  white;
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px 0px  hsla(212, 55%, 45%, 0.2);
+    margin-bottom:25px ;
+    padding-left: 25px;
+    padding-top: 25px;
+    border-top: 3px solid hsl(0, 78%, 62%);
+    position: relative;
+}
+.karma{
+    width: 320px;
+    height: 200px;
+    background-color:  white;
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px 0px  hsla(212, 55%, 45%, 0.2);
+    padding-left: 25px;
+    padding-top: 25px;
+    border-top: 3px solid hsl(34, 97%, 64%);
+    position: relative;
+}
+
+.calculator{
+    width: 320px;
+    height: 200px;
+    background-color:  white;
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px 0px  hsla(212, 55%, 45%, 0.2);
+    align-self: center;
+    padding-left: 25px;
+    padding-top: 25px;
+    border-top: 3px solid hsl(212, 86%, 64%);
+    position: relative;
+}
