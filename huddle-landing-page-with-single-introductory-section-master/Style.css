@@ -3,10 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    width:80%;
+    margin: auto;
+    padding: 50px 0 40px 0;
+}
 body{
     width: 100%;
     background: url(./images/bg-desktop.svg);
-    background-color:hsl(257, 40%, 49%) ;
+    background-color:hsl(257, 40%, 49%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     color: white;
     font-family: 'Poppins', sans-serif;
 }
@@ -21,7 +29,6 @@ img{
     display: flex;
     width: 80%;
     margin: auto;
-    margin-top: 100px;
 }
 .img{
     max-width: 100%;
@@ -29,7 +36,7 @@ img{
 }
 .col-2{
     width: 40%;
-    margin-top: 50px;
+    margin-top: 30px;
     min-width: 365px;
     padding-left: 20px;
 }
@@ -51,8 +58,24 @@ button{
     border: none;
     color: hsl(257, 32%, 39%);
     box-shadow: 2px 4px 10px 0px rgba(0, 0, 0, 0.336);
+    cursor: pointer;
+}
+@media (min-width: 1366){
+    header{
+        width: 60%;
+    }
+    .col-1-2{
+        width: 60%;
+    }
+    .col-2{
+        margin-top: 50px;
+    }
 }
 @media (max-width: 768px){
+    .logo{
+        width: 200px;
+        margin: auto;
+    }
     .col-2 h1{
         font-size: 26px;
     }
