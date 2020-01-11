@@ -34,14 +34,14 @@ h2{
     transition: all 0.1s ease-in-out;
 }
 .box_1{
-    background-image: url(/src/assets/desktop-design.jpg);
+    background-image: url("../assets/desktop-design.jpg");
 
 }
 .box_2{
-    background-image: url(/src/assets/desktop-design2.jpg);
+    background-image: url("../assets/desktop-design2.jpg");
 }
 .box_3{
-    background-image: url(/src/assets/desktop-design3.jpg);
+    background-image: url("../assets/desktop-design3.jpg");
 }
 .box_middle{
     margin: 0 62px;
