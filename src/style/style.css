@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    margin: 90px;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    margin-top: 90px;
+    font-size: 40px;
+    font-weight: 400;
+}
+h2{
+    text-align: right;
+    transform: translateY(-50%);
+    font-size: 70px;
+    color: rgba(235, 235, 235, 0.6);
+}
+
+.box{
+    width: 358px;
+    height: 232px;
+    background-size: contain;
+    background-position: center;
+    transition: all 0.1s ease-in-out;
+}
+.box_1{
+    background-image: url(/src/assets/desktop-design.jpg);
+
+}
+.box_2{
+    background-image: url(/src/assets/desktop-design2.jpg);
+}
+.box_3{
+    background-image: url(/src/assets/desktop-design3.jpg);
+}
+.box_middle{
+    margin: 0 62px;
+}
+.box:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.box:hover > h2{
+    text-shadow: 0 0 0 2px black;
+}
