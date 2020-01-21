@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 99%);
+    font-family: 'Raleway', sans-serif;
+}
+img{
+    width: 80%;
+}
+
+.first-Row,.second-Row{
+    display: flex;
+}
+
+.firstColl-1, .firstColl-2, .firstColl-3{
+    flex: 60%;
+}
+.secondColl-1, .secondColl-2, .secondColl-3{
+    flex: 40%;
+}
+
+input{
+    height: 40px;
+    width: 330px;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+button{
+    height: 40px;
+    width: 180px;
+    border: none;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border-radius: 4px;
+    box-shadow: 2px 5px 8px 0px rgba(0, 0, 0, 0.123);
+}
+
+.third-Row{
+    display: flex;
+    background-color: hsl(238, 22%, 44%);
+    color:white;
+    padding: 60px;
+}
+footer{
+    display: flex;
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+}
