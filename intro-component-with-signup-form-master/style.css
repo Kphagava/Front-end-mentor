@@ -4,8 +4,19 @@
     box-sizing: border-box;
 }
 body{
+    width: 100%;
+    background: url(./images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.cont{
     width: 80%;
     margin: auto;
+    margin-top: 100px;
 }
 .cont, .trial-Cont{
     display: flex;
@@ -15,13 +26,24 @@ body{
     background-color: hsl(248, 32%, 49%);
     height: 40px;
     text-align: center;
+    margin-top: 20px;
     
 }
 .trial-Cont{
     flex-direction: column;
+    background-color: white;
+    margin-top: 15px;
+    align-items: center;
+}
+input, button{
+    width: 80%;
+    margin: 5px;
 }
 .first-Column, .second-Column{
     flex: 1;
+}
+.first-Column{
+    align-self: center;
 }
 button{
     color: white;
