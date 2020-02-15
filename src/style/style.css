@@ -7,8 +7,11 @@
 
 .boxes{
     display: flex;
-    justify-content: center;
-    margin: 90px;
+    justify-content: space-around;
+    margin: 90px auto;
+    flex-wrap: wrap;
+    width: 80%;
+
 }
 a{
     text-decoration: none;
@@ -27,24 +30,26 @@ h2{
 }
 
 .box{
-    width: 358px;
-    height: 232px;
+    width: 716px;
+    height: 464px;
+    margin-bottom: 80px;
     background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
     transition: all 0.1s ease-in-out;
 }
 .box_1{
-    background-image: url("../assets/desktop-design.jpg");
+    background-image: url("../assets/desktop-preview-1.jpg");
 
 }
 .box_2{
-    background-image: url("../assets/desktop-design2.jpg");
+    background-image: url("../assets/desktop-preview-2.jpg");
 }
 .box_3{
-    background-image: url("../assets/desktop-design3.jpg");
+    background-image: url("../assets/desktop-preview-3.jpg");
 }
-.box_middle{
-    margin: 0 62px;
+.box_4{
+    background-image: url("../assets/desktop-preview-4.jpg");
 }
 .box:hover{
     transform: scale(1.1);
@@ -52,4 +57,11 @@ h2{
 }
 .box:hover > h2{
     text-shadow: 0 0 0 2px black;
+}
+
+@media(max-width: 1280px){
+    .box{
+        width: 358px;
+        height: 232px;
+    }
 }
